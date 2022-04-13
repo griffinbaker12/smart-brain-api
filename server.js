@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+// process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 const knex = require('knex')({
   client: 'pg',
   connection: {
